@@ -1,0 +1,68 @@
+/* -----------------
+    body style
+-------------------  */
+body{
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+/* main style 
+------------------- */
+main{
+    display: flex;
+    justify-content: center;
+}
+/* top player style 
+------------------- */
+.container{
+    width: 870px;
+    height: 679px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    padding-left: 30px;
+    
+}
+.section-title{
+    color: #562EFF;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 29px;
+
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
+.player-name{
+    margin-left: 14px;
+}
+.players hr{
+    border: 1px solid #d81717;
+    margin-right: 30px;
+}
+/*------------------------ 
+    top blogs style 
+----------------------- */
+.blogs-title{
+    color: #562EFF;
+    padding-bottom: 12px;
+
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+}
+article img{
+    width: 177px;
+    height: 117px;
+    padding-right: 16px;
+}
